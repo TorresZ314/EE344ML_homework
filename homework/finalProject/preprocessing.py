@@ -85,6 +85,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
                 # Load image as MediaPipe Image
                 try:
                     mp_image = mp.Image.create_from_file(file_path)
+                    
                 except Exception as e:
                     print(f"Skipping {filename}: {e}")
                     continue
