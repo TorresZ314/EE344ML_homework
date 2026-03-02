@@ -8,8 +8,8 @@ import numpy as np
 import cv2
 
 model_path = '/Users/y/Desktop/344MLhomework/homework/finalProject/model/hand_landmarker.task'
-input_folder = '/Users/y/Desktop/344MLhomework/homework/finalProject/input_images'
-output_csv = '/Users/y/Desktop/344MLhomework/homework/finalProject/landmarks_data.csv'
+input_folder = '/Users/y/Desktop/hands/right'
+output_csv = '/Users/y/Desktop/344MLhomework/homework/finalProject/landmarks_data_right.csv'
 
 # 2. Prepare the CSV header
 # Columns: Filename, Handedness, Score, then x, y, z for all 21 landmarks
